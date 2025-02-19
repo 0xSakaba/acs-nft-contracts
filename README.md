@@ -28,6 +28,8 @@ can mint
 from 00:00:00 UTC Feb. 20th 2025
 to 23:59:59 UTC May. 30th 2025
 
+SonovaACSContractModule#SonovaACSContract - 0xf3f8C65E983b414Aaa4D7662C5eBa81E4d27EAB4
+
 ### sepolia
 
 can mint from 18:00 JST - 23:00 JST Feb. 19th
