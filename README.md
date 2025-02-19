@@ -24,22 +24,15 @@ npx hardhat run ./verify/<name>.ts --network <network> <contractAddress>
 
 soneium (mainnet)
 
-AstarNFTCommonModule#AstarNFTCommon - 0xAF27443284F86CBdc1fa71941e8B787e5A4440De
-
-AstarNFTRareModule#AstarNFTRare - 0xcBdbF291979BbaF4A69817E7EB5bCD4493c65eF5
-
 
 sepolia
 
-AstarNFTCommonModule#AstarNFTCommon - 0x12516c9cC0d52eAec44737BB15f0A805628fE26B
-
-AstarNFTRareModule#AstarNFTRare - 0x31896d4544AEf14045f34c90Fb4fbE5D96cD0470
 
 soneium-minato (testnet)
 
-AstarNFTCommonModule#AstarNFTCommon - 0x55D30Ba332AdA10478e5aBbcA3400253bD5281E4
+spec docs:
 
-AstarNFTRareModule#AstarNFTRare - 0x15A580c90B10bF98dFe66f28B8e96D08150Cb6a4
+https://www.notion.so/Sonova-ACS-edition-19fea68ada958000b37fc8551b09c39c
 
 # Sample Hardhat Project
 
