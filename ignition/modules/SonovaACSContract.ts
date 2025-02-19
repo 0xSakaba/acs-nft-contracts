@@ -5,7 +5,7 @@ import { buildModule } from "@nomicfoundation/hardhat-ignition/modules";
 
 const input_baseTokenURI =
   "ipfs://bafkreicmhkxixbihhywewbvob63us56fsmpwd6cw7sv7gx3hkilv6yroli";
-const input_paymentTokenAddress = "0x";
+const input_paymentTokenAddress = "0x2CAE934a1e84F693fbb78CA5ED3B0A6893259441"; // already change to $ASTR in mainnet
 
 const SonovaACSContractModule = buildModule("SonovaACSContractModule", (m) => {
   const baseTokenURI = m.getParameter("baseTokenURI", input_baseTokenURI);
@@ -14,14 +14,12 @@ const SonovaACSContractModule = buildModule("SonovaACSContractModule", (m) => {
     input_paymentTokenAddress
   );
 
-  const MockErc20 = m.contract("MockErc20", ["MockErc20", "MERC"]);
-
   const SonovaACS = m.contract("SonovaACSContract", [
     baseTokenURI,
     paymentToken,
   ]);
 
-  return { SonovaACS, MockErc20 };
+  return { SonovaACS };
 });
 
 export default SonovaACSContractModule;
